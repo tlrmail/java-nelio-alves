@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import com.udemy.java_completo_2023_poo.secao015.excecoes.model.entities.ReservetionSolucaoRuim;
+import com.udemy.java_completo_2023_poo.secao015.excecoes.model.entities.ReservationSolucaoRuim;
 
 public class Sistema125 { /** Solução RUIM */
 
@@ -24,7 +24,7 @@ public class Sistema125 { /** Solução RUIM */
 		if(!checkOut.after(checkIn)) {
 			System.out.println("Error in reservation: Check-out date must be after check-in date.");
 		}else {
-			ReservetionSolucaoRuim reservation = new ReservetionSolucaoRuim(roomNumber, checkIn, checkOut);
+			ReservationSolucaoRuim reservation = new ReservationSolucaoRuim(roomNumber, checkIn, checkOut);
 			System.out.println(reservation);
 			
 			System.out.println();
@@ -35,7 +35,6 @@ public class Sistema125 { /** Solução RUIM */
 			System.out.println("Check-out date (dd/MM/yyyy): ");
 			checkOut = sdf.parse(input.next());
 			
-			Date now = new Date();
 			String error = reservation.updateDates(checkIn, checkOut);
 			if(error == null) {
 				System.out.println(reservation);

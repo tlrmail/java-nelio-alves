@@ -6,18 +6,18 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class ReservetionSolucaoMuitoRuim {
+public class ReservationSolucaoMuitoRuim {
 
 	private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 	private Integer roomNumber;
 	private Date checkin;
 	private Date checkout;
 
-	public ReservetionSolucaoMuitoRuim() {
+	public ReservationSolucaoMuitoRuim() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ReservetionSolucaoMuitoRuim(Integer number, Date checkin, Date checkout) {
+	public ReservationSolucaoMuitoRuim(Integer number, Date checkin, Date checkout) {
 		this.roomNumber = number;
 		this.checkin = checkin;
 		this.checkout = checkout;
