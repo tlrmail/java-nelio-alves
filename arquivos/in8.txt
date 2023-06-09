@@ -1,0 +1,9 @@
+TV LED,1290.99
+Video Game,350.50
+Iphone X,900.0
+Samsung Galaxy,850.00
+Chair,100,.00
+Tablet,300.0
+HD Case,80.9
+Mouse,50.0
+Computer,1290.0
